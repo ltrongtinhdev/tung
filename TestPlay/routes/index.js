@@ -67,6 +67,7 @@ router.get('/List2/:id', async (req, res) => {
     })
   }
 });
+
 router.post('/getidDanhmuc', async (req, res) => {
   let {name} = req.body;
   try {
